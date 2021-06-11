@@ -1,3 +1,3 @@
 # Nikhil-Manglore.github.io
 
-Linked: https://nikhil-manglore.github.io/
+Link: https://nikhil-manglore.github.io/
