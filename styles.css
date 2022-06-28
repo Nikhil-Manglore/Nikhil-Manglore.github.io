@@ -8,43 +8,43 @@
 .navbar {overflow: hidden;}
 
 .image {
-margin-left: auto;
-margin-right: auto;
-width: 15em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15em;
 }
 
 .social-links {
-margin: 0;
-padding: 0;
-display:flex;
-justify-content: center;
-align-items: center;
-height: 20vh;
+  margin: 0;
+  padding: 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
 }
 
 .social-links ul {
-margin: 0;
-padding: 0;
-display: flex; 
+  margin: 0;
+  padding: 0;
+  display: flex; 
 }
 
 .social-links ul li {
-list-style: none;
-margin: 8px;
+  list-style: none;
+  margin: 8px;
 }
 
 .social-links ul li a {
-position: relative;
-display: flex;
-justify-content: center;
-align-items: center;
-width: 60px;
-height: 60px;
-border-radius: 50%;
-text-decoration: none;
-font-size: 30px;
-color: #000000;
-transition: 0.5s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 30px;
+  color: #000000;
+  transition: 0.5s;
 
 }
 
@@ -58,21 +58,21 @@ transition: 0.5s;
 
 .social-links ul li:nth-child(4) a {background-color: #0e76a8;}
 
-.projects {
+.VIP {
   text-align: center;
 }
 
 body {
-animation: 10000ms infinite color-change;
-max-width: 100%;
-overflow-x: hidden;
+  background-image: linear-gradient(red, #f06d06);
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 @keyframes color-change {
-0% {background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);}
-20% {background: linear-gradient(to left, #00cc66 0%, #66ffff 100%);}
-40% {background: linear-gradient(to left, #993399 0%, #ff0000 100%);}
-60% {background: linear-gradient(to left, #ff66cc 0%, #ffcc00 100%);}
-80% {background: linear-gradient(to left, #00cc99 0%, #ff5050 100%);}
-100% {background: linear-gradient(to left, #ff5050 0%, #ff99cc 100%);}
+  0% {background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);}
+  20% {background: linear-gradient(to left, #00cc66 0%, #66ffff 100%);}
+  40% {background: linear-gradient(to left, #993399 0%, #ff0000 100%);}
+  60% {background: linear-gradient(to left, #ff66cc 0%, #ffcc00 100%);}
+  80% {background: linear-gradient(to left, #00cc99 0%, #ff5050 100%);}
+  100% {background: linear-gradient(to left, #ff5050 0%, #ff99cc 100%);}
 }
